@@ -4,7 +4,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:PopupApp">
 
-    <StackLayout Spacing="18">
+    <StackLayout Spacing="18"
+                 VerticalOptions="Center">
         <Button Clicked="ShowPopup"
                 Text="Show Popup" />
         <Button Clicked="ShowNewUserPopup"
